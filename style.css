@@ -16,16 +16,16 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 3.2rem;
-  color: #000002;
+  color: #37336A;
 }
 
 h1 span {
-  color: #ff7d56;
+  color: #D00031;
 }
 
 h4{
     font-family: 'Poppins', sans-serif;
-    color: #000002;
+    color: #37336A;
     font-weight: 600;
     font-size: 1.8rem;
 }
@@ -39,22 +39,24 @@ h3 {
 
 h5{
     font-family: 'Poppins', sans-serif;
-    color: #000002;
+    color: #37336A;
     font-size: 1.1rem;
 
+}
+h2{
+  color: #D00031;
+  font-family: 'Poppins', sans-serif;   
 }
 
 .centralizar-links {
   margin: 0 auto;
+  
 }
 
-.cornavbar {
-  background-color: #D74433;
-}
 
 .botaonavbar {
   color: #14B4BA;
-  background-color: #000002;
+  background-color: #37336A;
   padding: 10px 20px;
   border-radius: 8px;
 }
@@ -70,12 +72,12 @@ h5{
 }
 
 h1 span {
-    color: #ff7d56;
+    color: #D00031;
   }
 
 .features{
-    background-color: #fff0e9;
-    color:#daaa9d;
+    background-color: #14B4BA;
+    color: #000002;
     padding: 5px 15px;
     border-radius: 25px;
     text-transform: uppercase;
@@ -92,4 +94,67 @@ h1 span {
 }
 .espacotexto{
     padding-top: 4rem;
+}
+.bground{
+  background-color: #000002;
+}
+.cornav{
+  background-color: #000002;
+  opacity: 0.90;
+}
+.fontcor{
+font-style: oblique;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color:grey black
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: orange;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+  border: 3px solid orange;
+}
+
+.env{
+  background-color: #14B4BA;
+  color: #000002;
+}
+hr{
+  background-color: #D00031;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+.p-30 {
+  padding: 70px;
+  
+}
+.center {
+  text-align: center;
+}
+.con{
+  display: flex;
+  flex-flow: row;
+  justify-content: center ;
+  align-items: center;
+}
+.tm-social {
+  width: 50px;
+  height: 50px;
+}
+.navv{
+  border-radius: 1em;
 }
